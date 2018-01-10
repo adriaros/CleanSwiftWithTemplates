@@ -2,6 +2,14 @@
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
+.DS_Store
+*/.idea/libraries/GOPATH__Server_.xml
+*/.idea/misc.xml
+*/.idea/modules.xml
+*/.idea/vcs.xml
+*/.idea/workspace.xml
+Server.iml
+
 ## Build generated
 build/
 DerivedData/
