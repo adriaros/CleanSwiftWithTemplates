@@ -16,5 +16,6 @@ class SearchCityWorker
 {
   func doSomeWork()
   {
+    print("HOLA");
   }
 }

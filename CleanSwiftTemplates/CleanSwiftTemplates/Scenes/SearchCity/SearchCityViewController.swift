@@ -19,6 +19,9 @@ protocol SearchCityDisplayLogic: class
 
 class SearchCityViewController: UIViewController, SearchCityDisplayLogic
 {
+    
+    @IBOutlet weak var searchButton: UIButton!
+    
   var interactor: SearchCityBusinessLogic?
   var router: (NSObjectProtocol & SearchCityRoutingLogic & SearchCityDataPassing)?
 
